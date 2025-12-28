@@ -14,3 +14,6 @@ The application uses MySQL for data storage and JDBC for database connection.
 ## Database Setup
 Before running the application, run the `database/schema.sql` file on MySQL.
 Update the database username and password in `Database.java`.
+
+## Important!
+Make sure MySQL JDBC Driver is added to the project libraries.
